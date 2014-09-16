@@ -1,0 +1,20 @@
+<html>
+<head>
+    <link href="http://vjs.zencdn.net/4.8/video-js.css" rel="stylesheet">
+    <script src="http://vjs.zencdn.net/4.8/video.js"></script>
+
+    <link rel="stylesheet" href="bigvideo/css/bigvideo.css" type="text/css" media="screen" />
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="bigvideo/lib/bigvideo.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var BV = new $.BigVideo();
+            BV.init();
+            BV.show('GOPR0002.mp4',{ambient:true});
+        });
+    </script>
+</head>
+<body>
+    Hello World
+</body>
+</html>
