@@ -8,7 +8,7 @@
     <script src="bigvideo/lib/bigvideo.js"></script>
     <script type="text/javascript">
         $(function() {
-            var BV = new $.BigVideo();
+            var BV = new $.BigVideo({useFlashForFirefox:false});
             BV.init();
             BV.show('GOPR0002.mp4',{ambient:true});
         });
